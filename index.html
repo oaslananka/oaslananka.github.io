@@ -14,13 +14,18 @@
             color: #333;
         }
         header {
-            background-color: #333;
+            background-color: #444;
             color: #fff;
             padding: 20px 0;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         header h1 {
             margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0;
         }
         nav {
             text-align: center;
@@ -30,18 +35,23 @@
             margin: 0 15px;
             text-decoration: none;
             color: #007bff;
+            font-weight: bold;
         }
         main {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
+        section {
+            margin-top: 20px;
+        }
         section h2 {
             border-bottom: 2px solid #007bff;
             padding-bottom: 10px;
+            margin-bottom: 20px;
         }
         ul {
             list-style: none;
@@ -57,11 +67,18 @@
         article {
             margin-bottom: 20px;
         }
+        article h3 {
+            margin-bottom: 5px;
+        }
         footer {
             text-align: center;
             padding: 10px;
-            background-color: #333;
+            background-color: #444;
             color: #fff;
+            margin-top: 20px;
+        }
+        footer p {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -69,50 +86,119 @@
     <header>
         <h1>Osman Aslan</h1>
         <p>Izmir | <a href="mailto:oaslananka@gmail.com" style="color: #007bff;">oaslananka@gmail.com</a></p>
+        <p>+905352441275</p>
         <nav>
             <a href="https://www.linkedin.com/in/osman-aslan-673171205/">LinkedIn</a> | 
-            <a href="https://github.com/oaslananka">GitHub</a>
+            <a href="https://github.com/oaslananka">GitHub</a> |
+            <a href="https://oaslananka.github.io/">Portfolio</a>
         </nav>
     </header>
     <main>
-        <section>
+        <section id="summary">
             <h2>Professional Summary</h2>
             <p>Seeking a full-time position that offers professional challenges utilizing interpersonal skills, excellent time management, and problem-solving skills.</p>
         </section>
-        <section>
+        <section id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Python, C/C#/C++, Kotlin, JavaScript/Node.js</li>
-                <li>Machine Learning / Deep Learning</li>
-                <li>MySQL/MongoDB/SQLLITE</li>
-                <li>Linux, IoT development, MQTT/Socket.IO/RabbitMQ</li>
-                <li>Embedded C programming (UART/ I2C/ SPI/GPIO)</li>
-                <li>PCB Design, Hardware (Soldering, Oscilloscope, Multimeter, Debuggers (JTAG, SWD))</li>
+                <li>Python, C/C++, C#, JavaScript (NodeJS), HTML, CSS, Java, Kotlin (Android), GoLANG, Bash/Shell, SQL (SQLite, MySQL, MongoDB, PostgreSQL), MATLAB</li>
+                <li>Machine Learning / Deep Learning: NumPy, Pandas, Matplotlib, SciPy, Scikit-Learn, OpenCV, TensorFlow, Keras, PyTorch</li>
+                <li>Protocols & APIs: MQTT, RabbitMQ, SocketIO, I2C, UART, SPI, GPIO, REST, GraphQL</li>
+                <li>Tools: Docker, Kubernetes, GitHub, Jenkins, AutoCAD, SAP2000, Civil3D</li>
+                <li>Hardware: PCB Design (Proteus, EasyEDA, Altium), Debuggers (JTAG, SWD), Tools (Oscilloscope, Multimeter, Soldering)</li>
             </ul>
         </section>
-        <section>
+        <section id="work-history">
             <h2>Work History</h2>
             <article>
-                <h3>Earthquake Early Warning System - Ofsis Electronics</h3>
-                <p><strong>Role:</strong> PCB design, algorithm development, firmware (machine learning with Python), data analysis.</p>
-                <p><strong>Objective:</strong> To detect earthquakes in advance, take automatic precautions in buildings, and send emergency signals.</p>
+                <h3>Software | Embedded System | R&D Engineer</h3>
+                <p><strong>Company:</strong> Ofsis Electronic – Izmir, Turkey</p>
+                <p><strong>Duration:</strong> Feb 2022 - Jun 2024</p>
+                <p><strong>Projects:</strong> Earthquake warning system & Seismometer Development</p>
+                <p><strong>Role:</strong> PCB design, algorithm creation, software and firmware coding, machine learning model creation, API development, big data servers, instant data processing, early warning algorithms.</p>
             </article>
             <article>
-                <h3>Seismograph - Ofsis Electronics</h3>
-                <p><strong>Role:</strong> PCB design, algorithm development, calculations and verifications for converting raw data into mm/s data.</p>
-                <p><strong>Objective:</strong> To detect seismic waves.</p>
+                <h3>ML/DL Engineer</h3>
+                <p><strong>Company:</strong> Freelance (Upwork) – Remote</p>
+                <p><strong>Duration:</strong> Mar 2021 - Jan 2022</p>
+                <p><strong>Projects:</strong> Intelligent agriculture, plant disease detection, crop ripening detection</p>
+                <p><strong>Role:</strong> Plant disease detection from drone images, creating and integrating sensor libraries for autonomous tractors, creation of computer interface and mobile application for all reporting and control processes.</p>
             </article>
             <article>
-                <h3>Design of NAV-Variometer for Paragliding - Ege University Aviation Club</h3>
-                <p><strong>Role:</strong> PCB design, hardware firmware (C/C++), interface design with e-ink display.</p>
+                <h3>Backend Developer | IoT Engineer</h3>
+                <p><strong>Company:</strong> Freelance (Fiverr) – Remote</p>
+                <p><strong>Duration:</strong> Oct 2020 - Feb 2021</p>
+                <p><strong>Projects:</strong> Smart Manufacturing IoT Solutions for Predictive Maintenance</p>
+                <p><strong>Role:</strong> Algorithms for data collection, filtering, preprocessing, secure APIs for data communication, big data infrastructure, real-time analytics, machine learning models for predictive maintenance.</p>
             </article>
             <article>
-                <h3>Structural Health Monitoring Module - Ege University Civil Engineering Department</h3>
-                <p><strong>Role:</strong> PCB design, analog sensor design, data observation interface, and data evaluation algorithm design.</p>
+                <h3>Computer Vision Engineer</h3>
+                <p><strong>Company:</strong> Freelance (Fiverr) – Remote</p>
+                <p><strong>Duration:</strong> May 2020 - Aug 2020</p>
+                <p><strong>Projects:</strong> Real-time Face Mask Detection</p>
+                <p><strong>Role:</strong> Developed and trained machine learning models for mask detection, real-time video processing, integration with security camera systems.</p>
             </article>
             <article>
-                <h3>Oscillator Development for Structural Dynamics - Ege University Civil Engineering Department</h3>
-                <p><strong>Role:</strong> PCB design, firmware development, control interface, and mechanical design.</p>
+                <h3>IoT Engineer</h3>
+                <p><strong>Company:</strong> Freelance (Upwork) – Remote</p>
+                <p><strong>Duration:</strong> Jan 2020 - Apr 2020</p>
+                <p><strong>Projects:</strong> Weather monitoring module development</p>
+                <p><strong>Role:</strong> Developed and integrated sensors for weather data collection, data processing algorithms for real-time analysis, user interface for data visualization and reporting.</p>
+            </article>
+            <article>
+                <h3>ML/DL Engineer for Financial Trading</h3>
+                <p><strong>Company:</strong> Freelance (Upwork) – Remote</p>
+                <p><strong>Duration:</strong> Feb 2019 - Jun 2019</p>
+                <p><strong>Projects:</strong> AI Powered Crypto Trading Bot</p>
+                <p><strong>Role:</strong> ML/DL models for market trend prediction, real-time data analysis, APIs for trading platform integration.</p>
+            </article>
+            <article>
+                <h3>Software | Embedded System | R&D</h3>
+                <p><strong>Company:</strong> Ege University Civil Engineering Department – Izmir, Turkey</p>
+                <p><strong>Duration:</strong> Jan 2018 - Jan 2019</p>
+                <p><strong>Projects:</strong> Smart and Autonomous Classroom Module (Academic)</p>
+                <p><strong>Role:</strong> Designed and implemented sensor networks, developed automation algorithms, integrated IoT devices, created user interface, conducted data analysis, and implemented AI for optimizing learning conditions.</p>
+            </article>
+            <article>
+                <h3>Software | Embedded System | R&D</h3>
+                <p><strong>Company:</strong> Ege University Civil Engineering Department – Izmir, Turkey</p>
+                <p><strong>Duration:</strong> Jun 2017 - Dec 2017</p>
+                <p><strong>Projects:</strong> Smart Office Energy and Environmental Monitoring Module (Academic)</p>
+                <p><strong>Role:</strong> PCB design, sensor libraries, interface coding, data transfer and control algorithms, Linux server setup, API creation, machine and deep learning models for big data processing.</p>
+            </article>
+            <article>
+                <h3>Software | Embedded System | R&D</h3>
+                <p><strong>Company:</strong> Ege University Aviation Club – Izmir, Turkey</p>
+                <p><strong>Duration:</strong> Dec 2016 - Apr 2017</p>
+                <p><strong>Projects:</strong> Paragliding Navigation Device with E-Ink Display (Hobby & TUBITAK 1512 Project)</p>
+                <p><strong>Role:</strong> Electronics design, PCB layout, firmware and software development, user interface, scientific calculations.</p>
+            </article>
+            <article>
+                <h3>Software | Embedded System | R&D</h3>
+                <p><strong>Company:</strong> Ege University Civil Engineering Department – Izmir, Turkey</p>
+                <p><strong>Duration:</strong> Mar 2016 - Sep 2016</p>
+                <p><strong>Projects:</strong> Structural Health Monitoring Module (Academic)</p>
+                <p><strong>Role:</strong> Operational amplifier circuit for strain gauges, hardware and software development, scientific calculations, interface design, PCB layout, wireless data transmission.</p>
+            </article>
+            <article>
+                <h3>Software | Embedded System | R&D</h3>
+                <p><strong>Company:</strong> Ege University Civil Engineering Department – Izmir, Turkey (Remote)</p>
+                <p><strong>Duration:</strong> Sep 2015 - Jan 2016</p>
+                <p><strong>Projects:</strong> Frequency oscillator software and hardware development for the structure department laboratory (Academic)</p>
+                <p><strong>Role:</strong> PCB design, firmware development, control interfaces, mechanical design.</p>
+            </article>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>Bachelor of Science: Civil & Structural Engineering</h3>
+                <p><strong>Institution:</strong> Ege University - Izmir</p>
+                <p><strong>Graduation:</strong> Sep 2020</p>
+            </article>
+            <article>
+                <h3>No Degree: Elementary Science Education</h3>
+                <p><strong>Institution:</strong> Middle East Technical University - Ankara, Turkey</p>
+                <p><strong>Duration:</strong> Oct 2012 (Dropped out)</p>
             </article>
         </section>
     </main>
