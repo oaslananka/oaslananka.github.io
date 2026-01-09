@@ -1,0 +1,436 @@
+{
+    "personal": {
+        "name": "Osman Aslan",
+        "title": "Software & Embedded Systems Engineer | AI/IoT Team Lead",
+        "tagline": "Building reliable, AI-augmented embedded systems for real-time monitoring, predictive analytics, and industrial automation.",
+        "location": "Izmir, Turkey",
+        "yearsExperience": "10+",
+        "email": "info@oaslananka.me",
+        "website": "https://oaslananka.me"
+    },
+    "social": {
+        "linkedin": "https://linkedin.com/in/oaslananka",
+        "github": "https://github.com/oaslananka"
+    },
+    "about": {
+        "summary": "Software and Embedded Systems Engineer with 10+ years of experience specializing in building AI-augmented embedded platforms for real-time monitoring, predictive analytics, and automation across domains such as industrial IoT, structural health monitoring, and energy systems.",
+        "extended": "I combine deep technical expertise in firmware development (STM32, ESP32, Raspberry Pi) with modern cloud technologies, creating scalable solutions that bridge the gap between hardware and software ecosystems. My work spans the full stack: from sensor signal conditioning and MCU firmware to cloud ingestion pipelines, ML-based analytics, and mobile apps."
+    },
+    "experience": [
+        {
+            "id": "sismosmart",
+            "title": "Founder / Lead Engineer (Personal R&D)",
+            "company": "SismoSmart",
+            "location": "Izmir, Turkey",
+            "period": "Jun 2025 – Present",
+            "type": "R&D Venture",
+            "description": "Personal R&D venture developing earthquake sensing and building health monitoring prototypes. Currently validating a system architecture featuring ESP32/STM32 + ADXL355 accelerometers, environmental sensors, and optional gas detection—networked via Wi-Fi/Ethernet to a central cloud for event detection and early warning.",
+            "highlights": [
+                "Designing fleet network architecture for multi-building deployment",
+                "Prototyping early warning + automated safety actuator control (gas/water/electric cutoffs)",
+                "Building cloud pipeline for event detection, alerting, and reporting"
+            ],
+            "tech": [
+                "ESP32",
+                "STM32",
+                "ADXL355",
+                "Python",
+                "Node.js",
+                "MQTT",
+                "PostgreSQL"
+            ]
+        },
+        {
+            "id": "aco",
+            "title": "AI/Software Team Lead",
+            "company": "Recycling Technology Company (Deposit Return Machines)",
+            "location": "Izmir, Turkey (Hybrid)",
+            "period": "Mar 2025 – Jul 2025",
+            "type": "Full-time",
+            "description": "Led an R&D team that shipped and operated reverse vending machines (RVM) for recyclable container collection. The system included barcode readers, camera with GPU inference, weight sensors, and multiple mechatronic modules (conveyors, elevator/stacking, soft-drop, drum, diverters).",
+            "highlights": [
+                "Architected end-to-end integration: embedded edge PC with GPU + cloud fleet management",
+                "Implemented YOLO-based CV inference for container classification at the edge",
+                "Established CI/CD pipelines, remote debugging, and reliability improvements",
+                "Debug story: Resolved intermittent misclassification by profiling inference latency and adjusting frame capture timing to avoid motion blur"
+            ],
+            "tech": [
+                "C/C++",
+                "Python",
+                "Node.js",
+                "Docker",
+                "Kubernetes",
+                "Azure",
+                "YOLO",
+                "Linux",
+                "REST/gRPC",
+                "Prometheus",
+                "Grafana"
+            ]
+        },
+        {
+            "id": "werover",
+            "title": "Head of Hardware / IoT Lead",
+            "company": "Werover",
+            "location": "Izmir, Turkey (Hybrid)",
+            "period": "Sep 2024 – Mar 2025",
+            "type": "Full-time",
+            "description": "Led development of wind turbine blade monitoring devices. Built a solar-powered, rugged-enclosure sensor node featuring ESP32 + 4 microphones (I2S), environmental sensors (temp/pressure/humidity), and an accelerometer for vibration analysis. Data uplinked via GSM/LTE module to AWS cloud for ML-based fault detection.",
+            "highlights": [
+                "Designed firmware with FreeRTOS for reliable audio/vibration capture in harsh environments",
+                "Implemented OTA updates, secure provisioning (TLS certs), time sync, and offline buffering",
+                "Debug story: Solved a tricky GSM reconnection issue in low-signal zones by implementing exponential backoff with local SD buffering"
+            ],
+            "tech": [
+                "ESP32",
+                "ESP-IDF",
+                "FreeRTOS",
+                "I2S",
+                "MQTT",
+                "AWS IoT Core",
+                "OTA",
+                "TLS",
+                "GSM/LTE"
+            ]
+        },
+        {
+            "id": "kodland",
+            "title": "Python Programming Tutor",
+            "company": "Kodland",
+            "location": "Remote (Part-time)",
+            "period": "Jun 2024 – Feb 2025",
+            "type": "Part-time",
+            "description": "Delivered project-based Python and algorithms instruction to students. Guided learners through building ML/web applications with Flask and Django, emphasizing clean code practices and version control with Git.",
+            "highlights": [
+                "Mentored students on full-stack projects from concept to deployment",
+                "Taught algorithmic thinking, data structures, and practical ML basics"
+            ],
+            "tech": [
+                "Python",
+                "Flask",
+                "Django",
+                "Git",
+                "GitHub"
+            ]
+        },
+        {
+            "id": "ofsis",
+            "title": "Software & Embedded Systems Engineer / Technical Lead",
+            "company": "Ofsis Electronics",
+            "location": "Izmir, Turkey",
+            "period": "Feb 2022 – Jun 2024",
+            "type": "Full-time",
+            "description": "Architected and deployed earthquake early-warning and multi-hazard monitoring systems across dozens of stations in Izmir (public institutions + private companies). The device architecture combined STM32 MCU + ADXL355 high-precision accelerometer communicating via SPI to a Raspberry Pi gateway with local touch-screen UI.",
+            "highlights": [
+                "Built Node.js realtime ingestion layer + Python processing services with RabbitMQ message queues",
+                "Implemented early warning workflow: first station detection → impact estimation → automated safety triggers (elevator recall, gas/electric/water cutoff, emergency doors)",
+                "Developed Android Kotlin app for device management and push notification alerts",
+                "Debug story: Traced false-positive earthquake alerts to SPI bus noise from nearby switching regulator; fixed with proper decoupling and shielding"
+            ],
+            "tech": [
+                "STM32",
+                "ADXL355",
+                "Raspberry Pi",
+                "SPI",
+                "Python",
+                "Node.js",
+                "RabbitMQ",
+                "MQTT",
+                "PostgreSQL",
+                "Android/Kotlin"
+            ]
+        },
+        {
+            "id": "freelance",
+            "title": "Independent Embedded & AI Consultant",
+            "company": "Freelance",
+            "location": "Remote (Multi-Industry)",
+            "period": "2012 – Feb 2022",
+            "type": "Freelance",
+            "description": "Delivered 100+ client projects across IoT/embedded, machine learning, computer vision, and full-stack backend systems. Built IoT sensor networks (ESP32/STM32), MQTT-based telemetry, time-series storage, and monitoring dashboards. Maintained strong delivery metrics on freelance platforms with high repeat-client rate.",
+            "highlights": [
+                "Built IoT sensor networks with ESP32/STM32, MQTT-based telemetry, time-series storage (InfluxDB), and Grafana dashboards",
+                "Implemented computer vision solutions (object detection, OCR, face recognition) with OpenCV and deep learning, including edge deployments on Raspberry Pi",
+                "Developed production APIs and microservices (Flask/FastAPI/Django, Docker), with JWT auth, rate limiting, and OpenAPI documentation",
+                "Worked end-to-end from prototyping to deployment across agriculture, industrial monitoring, and security domains"
+            ],
+            "tech": [
+                "ESP32",
+                "STM32",
+                "Python",
+                "Flask",
+                "FastAPI",
+                "Django",
+                "Docker",
+                "OpenCV",
+                "MQTT",
+                "InfluxDB",
+                "Grafana",
+                "REST APIs"
+            ]
+        },
+        {
+            "id": "ege-university",
+            "title": "Embedded/IoT Research Engineer",
+            "company": "Ege University (Scholarship-supported)",
+            "location": "Izmir, Turkey",
+            "period": "2014 – 2018",
+            "type": "Academic/R&D",
+            "description": "Laboratory/thesis-focused R&D building field-deployed sensor systems with end-to-end data collection, processing, and visualization. Projects included structural health monitoring (frequency generator for vibration analysis), smart classroom environmental monitoring, and multi-modal sensor networks.",
+            "highlights": [
+                "Built multi-sensor networks: air quality/CO2, light, sound dB, power meter, temp/humidity/pressure with wireless modules (HC-12) to Raspberry Pi gateway",
+                "Developed wireless protocol with retry/backoff, sequence numbers, and integrity checks for reliable field data collection",
+                "Created Linux server infrastructure with MySQL/PostgreSQL, API layer, and web dashboard for real-time and historical visualization",
+                "Implemented sensor calibration, health metrics (drift detection, disconnection alerts), and automated logging for production-grade research systems"
+            ],
+            "tech": [
+                "Raspberry Pi",
+                "Arduino",
+                "STM32",
+                "I2C/SPI",
+                "HC-12 Wireless",
+                "Python",
+                "MySQL",
+                "PostgreSQL",
+                "HTML/JS Dashboard",
+                "Linux Server"
+            ]
+        }
+    ],
+    "caseStudies": [
+        {
+            "id": "ofsis-early-warning",
+            "title": "Multi-Station Earthquake Early Warning System",
+            "company": "Ofsis Electronics",
+            "period": "2022–2024",
+            "problem": "Izmir needed a city-wide earthquake early warning system that could detect seismic events and trigger automated safety responses (elevator recall, utility shutoffs) within seconds.",
+            "constraints": "Sub-second detection latency, zero false positives acceptable, heterogeneous station hardware, unreliable network conditions, 24/7 uptime requirement.",
+            "architecture": "STM32 MCU + ADXL355 accelerometer → SPI → Raspberry Pi gateway → MQTT → Node.js ingestion → RabbitMQ → Python processing → PostgreSQL. Android app for monitoring.",
+            "contribution": "Designed the full-stack architecture from firmware to cloud. Built the realtime Node.js ingestion layer, Python event detection services, and the early warning broadcast logic. Led firmware development for MCU-Gateway SPI communication.",
+            "tech": [
+                "STM32",
+                "ADXL355",
+                "SPI",
+                "Raspberry Pi",
+                "Node.js",
+                "Python",
+                "RabbitMQ",
+                "MQTT",
+                "PostgreSQL",
+                "Android/Kotlin"
+            ]
+        },
+        {
+            "id": "aco-rvm",
+            "title": "AI-Powered Reverse Vending Machine Fleet",
+            "company": "Recycling Technology Company",
+            "period": "2025",
+            "problem": "Deploy and operate a fleet of reverse vending machines (RVMs) for recyclable container collection with accurate AI-based container classification.",
+            "constraints": "Edge inference on GPU with <200ms latency, multiple mechtronics modules to orchestrate, remote fleet management across varied network conditions, regulatory compliance for deposit returns.",
+            "architecture": "Barcode reader + camera + weight sensors → Edge PC with GPU (YOLO inference) → C++ orchestration layer → Node.js cloud ingestion → Kubernetes-deployed backend on Azure.",
+            "contribution": "Led the R&D team for end-to-end integration. Built the YOLO inference pipeline, C++ mechatronics orchestration, and established CI/CD with remote debugging capabilities.",
+            "tech": [
+                "C/C++",
+                "Python",
+                "YOLO",
+                "Docker",
+                "Kubernetes",
+                "Azure",
+                "Node.js",
+                "GPU/CUDA",
+                "REST/gRPC"
+            ]
+        },
+        {
+            "id": "werover-turbine",
+            "title": "Solar-Powered Wind Turbine Blade Monitor",
+            "company": "Werover",
+            "period": "2024–2025",
+            "problem": "Wind farm operators needed a way to detect blade damage early through audio and vibration analysis, avoiding expensive manual inspections.",
+            "constraints": "Solar-powered with intermittent sunlight, GSM connectivity in remote locations, must survive harsh weather (wind, rain, temperature extremes), continuous audio/vibration capture.",
+            "architecture": "ESP32 + 4x I2S microphones + accelerometer + environmental sensors → FreeRTOS firmware → SD buffer + GSM/LTE uplink → AWS IoT Core → ML fault detection pipeline.",
+            "contribution": "Designed full hardware/firmware stack. Implemented FreeRTOS-based audio capture with ring buffers, OTA updates, secure provisioning with TLS client certs, offline buffering for connectivity gaps.",
+            "tech": [
+                "ESP32",
+                "ESP-IDF",
+                "FreeRTOS",
+                "I2S",
+                "AWS IoT Core",
+                "MQTT",
+                "OTA",
+                "TLS",
+                "GSM/LTE"
+            ]
+        },
+        {
+            "id": "ege-smart-classroom",
+            "title": "Smart Classroom Environmental Monitoring",
+            "company": "Ege University",
+            "period": "2018–2019",
+            "problem": "Research project to monitor and optimize classroom environments for student comfort and energy efficiency.",
+            "constraints": "Academic budget, need for calibration and reproducibility, multiple sensor types requiring different interfaces.",
+            "architecture": "Arduino sensor nodes (CO2, light, sound, temp/humidity) → HC-12 wireless → Raspberry Pi aggregator → Python backend → PostgreSQL → Web dashboard.",
+            "contribution": "Designed sensor node hardware, wrote firmware for multi-sensor data acquisition, built the web dashboard for visualization and data export.",
+            "tech": [
+                "Arduino",
+                "HC-12",
+                "Raspberry Pi",
+                "Python",
+                "PostgreSQL",
+                "Web Dashboard",
+                "I2C/SPI"
+            ]
+        }
+    ],
+    "skills": {
+        "embedded": {
+            "title": "Embedded Systems",
+            "icon": "fas fa-microchip",
+            "items": [
+                "STM32",
+                "ESP32",
+                "Raspberry Pi",
+                "Arduino",
+                "FreeRTOS",
+                "ESP-IDF",
+                "Embedded Linux",
+                "PlatformIO",
+                "SPI/I2C/UART"
+            ]
+        },
+        "languages": {
+            "title": "Programming Languages",
+            "icon": "fas fa-code",
+            "items": [
+                "Python",
+                "C/C++",
+                "JavaScript/Node.js",
+                "Kotlin",
+                "Go",
+                "SQL",
+                "Bash"
+            ]
+        },
+        "frameworks": {
+            "title": "Frameworks & Libraries",
+            "icon": "fas fa-cogs",
+            "items": [
+                "Django",
+                "Flask",
+                "FastAPI",
+                "TensorFlow",
+                "PyTorch",
+                "OpenCV",
+                "YOLO"
+            ]
+        },
+        "devops": {
+            "title": "DevOps & Cloud",
+            "icon": "fas fa-cloud",
+            "items": [
+                "Docker",
+                "Kubernetes",
+                "AWS IoT",
+                "Azure",
+                "Ansible",
+                "Jenkins",
+                "CI/CD",
+                "Linux",
+                "Git"
+            ]
+        },
+        "data": {
+            "title": "Data & Messaging",
+            "icon": "fas fa-database",
+            "items": [
+                "PostgreSQL",
+                "MongoDB",
+                "Redis",
+                "RabbitMQ",
+                "MQTT",
+                "REST APIs",
+                "WebSockets",
+                "gRPC"
+            ]
+        },
+        "hardware": {
+            "title": "Hardware & Testing",
+            "icon": "fas fa-tools",
+            "items": [
+                "PCB Design",
+                "KiCad",
+                "Altium",
+                "Signal Conditioning",
+                "Oscilloscope",
+                "pytest",
+                "Postman",
+                "Grafana",
+                "Prometheus"
+            ]
+        }
+    },
+    "education": [
+        {
+            "degree": "Master of Science in Engineering",
+            "field": "Civil & Structural Engineering",
+            "institution": "Ege University",
+            "location": "Izmir, Turkey",
+            "thesis": "A Big Data and AI–Driven Embedded Systems Framework for Structural Health Monitoring, Lifecycle Extension, and Predictive Maintenance"
+        },
+        {
+            "degree": "Bachelor of Engineering",
+            "field": "Civil & Structural Engineering",
+            "institution": "Ege University",
+            "location": "Izmir, Turkey"
+        },
+        {
+            "degree": "Bachelor of Education",
+            "field": "Elementary Science Education",
+            "institution": "Middle East Technical University",
+            "location": "Ankara, Turkey"
+        }
+    ],
+    "stackSnapshot": {
+        "embedded": [
+            "STM32",
+            "ESP32",
+            "FreeRTOS",
+            "ESP-IDF",
+            "SPI/I2C/UART",
+            "Embedded Linux",
+            "Raspberry Pi Gateway",
+            "ADXL355",
+            "I2S Audio"
+        ],
+        "software": [
+            "Python",
+            "Node.js",
+            "Kotlin",
+            "C/C++",
+            "REST",
+            "WebSockets",
+            "gRPC",
+            "Message Queues"
+        ],
+        "dataInfra": [
+            "PostgreSQL",
+            "Redis",
+            "RabbitMQ",
+            "MQTT",
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "Prometheus",
+            "Grafana",
+            "ELK"
+        ],
+        "ai": [
+            "Computer Vision (YOLO)",
+            "Edge GPU Inference",
+            "TensorFlow",
+            "PyTorch",
+            "Model Lifecycle",
+            "OpenCV"
+        ]
+    }
+}

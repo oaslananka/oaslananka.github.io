@@ -1,0 +1,5 @@
+# robots.txt for https://oaslananka.me/
+User-agent: *
+Allow: /
+
+Sitemap: https://oaslananka.me/sitemap.xml
